@@ -1,14 +1,8 @@
 package main
 
-import (
-	"fmt"
-)
-
-func test() {
-	fmt.Println("This is test function")
-}
+import "fmt"
 
 func main() {
 	fmt.Println("Hello Golang")
-	test()
+	fmt.Println("This is line ")
 }
