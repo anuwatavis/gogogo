@@ -1,6 +1,8 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
 
 func main() {
 
@@ -19,5 +21,13 @@ func main() {
 	fmt.Println(tmp2)
 	fmt.Println(tmp3)
 	fmt.Println(temp5)
+	run()
 
+}
+
+var count int = 0
+
+func run() {
+	count++
+	fmt.Println(count)
 }
