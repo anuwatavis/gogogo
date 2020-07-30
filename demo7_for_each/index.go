@@ -9,4 +9,8 @@ func main() {
 	for index, item := range course {
 		fmt.Printf("%d %s \n", index, item)
 	}
+
+	for _, item := range course {
+		fmt.Printf("%s \n", item)
+	}
 }
