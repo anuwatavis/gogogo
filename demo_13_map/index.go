@@ -20,6 +20,5 @@ func main() {
 	course["Android"] = make(map[string]int)
 	course["Android"]["price"] = 200
 	course["Android"]["height"] = 30
-
 	fmt.Println("course -->", course)
 }
