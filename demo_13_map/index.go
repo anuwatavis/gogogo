@@ -14,4 +14,12 @@ func main() {
 	colors["blue"] = "#00F"
 	fmt.Println("", colors)
 	fmt.Println("", colors["green"])
+
+	//multiple map
+	var course = make(map[string]map[string]int)
+	course["Android"] = make(map[string]int)
+	course["Android"]["price"] = 200
+	course["Android"]["height"] = 30
+
+	fmt.Println("course -->", course)
 }
